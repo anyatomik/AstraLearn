@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emoji on Astra-learn</title>
+    <link>/zh/tags/emoji/</link>
+    <description>Astra-learn (Emoji)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    
+      
+        <managingEditor>me@junyi.dev
+          
+            (Junyi)
+          
+        </managingEditor>
+      
+
+      
+    
+
+    
+    <lastBuildDate>Mon, 06 May 2024 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="/zh/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demo - Support for Diagrams</title>
+      <link>/zh/posts/demo-diagram/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate>
+      <author>me@junyi.dev (Junyi)</author>
+      <guid>/zh/posts/demo-diagram/</guid>
+      <description>&lt;p&gt;Feel free to switch between the light and dark themes to see how the diagram adapts its colors accordingly.&lt;/p&gt;
+&lt;h2 id=&#34;mermaid-diagrams&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#mermaid-diagrams&#34;&gt;
+        #
+    &lt;/a&gt;
+    Mermaid Diagrams
+&lt;/div&gt;
+&lt;/h2&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;gantt
+    title A Gantt Diagram
+    dateFormat YYYY-MM-DD
+    section Section
+        A task          :a1, 2014-01-01, 30d
+        Another task    :after a1, 20d
+    section Another
+        Task in Another :2014-01-12, 12d
+        another task    :24d
+&lt;/pre&gt;
+
+&lt;p&gt;Get more examples at &lt;a href=&#34;https://mermaid.js.org/intro/&#34;&gt;About Mermaid&lt;/a&gt;&lt;/p&gt;
+&lt;pre class=&#34;mermaid&#34;&gt;gitGraph:
+    commit &#34;Ashish&#34;
+    branch newbranch
+    checkout newbranch
+    commit id:&#34;1111&#34;
+    commit tag:&#34;test&#34;
+    checkout main
+    commit type: HIGHLIGHT
+    commit
+    merge newbranch
+    commit
+    branch b2
+    commit
+&lt;/pre&gt;
+
+&lt;pre class=&#34;mermaid&#34;&gt;stateDiagram
+    [*] --&gt; Still
+    Still --&gt; [*]
+
+    Still --&gt; Moving
+    Moving --&gt; Still
+    Moving --&gt; Crash
+    Crash --&gt; [*]
+&lt;/pre&gt;
+
+&lt;pre class=&#34;mermaid&#34;&gt;sankey-beta
+
+Pumped heat,&#34;Heating and cooling, &#34;&#34;homes&#34;&#34;&#34;,193.026
+Pumped heat,&#34;Heating and cooling, &#34;&#34;commercial&#34;&#34;&#34;,70.672
+&lt;/pre&gt;
+
+&lt;pre class=&#34;mermaid&#34;&gt;sequenceDiagram
+    loop Daily query
+        Alice-&gt;&gt;Bob: Hello Bob, how are you?
+        alt is sick
+            Bob-&gt;&gt;Alice: Not so good :(
+        else is well
+            Bob-&gt;&gt;Alice: Feeling fresh like a daisy
+        end
+
+        opt Extra response
+            Bob-&gt;&gt;Alice: Thanks for asking
+        end
+    end
+&lt;/pre&gt;
+
+&lt;pre class=&#34;mermaid&#34;&gt;sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+        John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts &lt;br/&gt;prevail!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;goat&#34; &gt;
+&lt;div&gt;
+    &lt;a href=&#34;#goat&#34;&gt;
+        #
+    &lt;/a&gt;
+    GoAT
+&lt;/div&gt;
+&lt;/h2&gt;
+
+
+
+&lt;div class=&#34;goat svg-container &#34;&gt;
+  
+    &lt;svg
+      xmlns=&#34;http://www.w3.org/2000/svg&#34;
+      font-family=&#34;Menlo,Lucida Console,monospace&#34;
+      
+        viewBox=&#34;0 0 680 121&#34;
+      &gt;
+      &lt;g transform=&#39;translate(8,16)&#39;&gt;
+&lt;path d=&#39;M 440,0 L 464,0&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 576,0 L 584,0&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 408,16 L 440,16&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 552,16 L 560,16&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 144,32 L 176,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 176,32 L 208,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 296,32 L 312,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 312,32 L 328,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 440,32 L 464,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 576,32 L 584,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 384,48 L 408,48&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 512,48 L 536,48&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 128,64 L 144,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 144,64 L 160,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 192,64 L 208,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 208,64 L 224,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 440,64 L 464,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 576,64 L 584,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 408,80 L 440,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 552,80 L 560,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 440,96 L 464,96&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 576,96 L 584,96&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 128,64 L 128,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 144,32 L 144,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 160,64 L 160,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 176,0 L 176,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 192,64 L 192,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 208,32 L 208,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 224,64 L 224,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 280,48 L 280,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 312,0 L 312,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 344,48 L 344,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 408,16 L 408,48&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 408,48 L 408,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 440,0 L 440,16&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 440,16 L 440,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 440,64 L 440,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 440,80 L 440,96&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 536,32 L 536,48&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 536,48 L 536,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 8,80 L 24,48&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 24,48 L 48,0&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 56,80 L 72,48&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 624,48 L 640,16&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 640,16 L 648,0&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 640,80 L 648,64&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 24,48 L 40,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 48,0 L 72,48&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 72,48 L 88,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 624,48 L 640,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 640,80 L 648,96&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 640,16 L 648,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 576,0 A 16,16 0 0,0 560,16&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 552,16 A 16,16 0 0,0 536,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 296,32 A 16,16 0 0,0 280,48&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 328,32 A 16,16 0 0,1 344,48&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 560,16 A 16,16 0 0,0 576,32&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 280,64 A 16,16 0 0,0 264,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 280,64 A 16,16 0 0,1 296,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 344,64 A 16,16 0 0,0 328,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 344,64 A 16,16 0 0,1 360,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 576,64 A 16,16 0 0,0 560,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 536,64 A 16,16 0 0,0 552,80&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;path d=&#39;M 560,80 A 16,16 0 0,0 576,96&#39; fill=&#39;none&#39; stroke=&#39;currentColor&#39;&gt;&lt;/path&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;8&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;1&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;40&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;2&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;56&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;3&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;88&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;4&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;128&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;1&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;160&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;2&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;192&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;3&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;224&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;4&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;264&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;1&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;296&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;2&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;328&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;3&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;360&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;4&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;480&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;1&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;480&#39; y=&#39;36&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;2&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;480&#39; y=&#39;68&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;3&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;480&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;4&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;600&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;1&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;600&#39; y=&#39;36&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;2&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;600&#39; y=&#39;68&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;3&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;600&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;4&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;664&#39; y=&#39;4&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;1&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;664&#39; y=&#39;36&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;2&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;664&#39; y=&#39;68&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;3&lt;/text&gt;
+&lt;text text-anchor=&#39;middle&#39; x=&#39;664&#39; y=&#39;100&#39; fill=&#39;currentColor&#39; style=&#39;font-size:1em&#39;&gt;4&lt;/text&gt;
+&lt;/g&gt;
+
+    &lt;/svg&gt;
+  
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji 支持</title>
+      <link>/zh/posts/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <author>me@junyi.dev (Junyi)</author>
+      <guid>/zh/posts/emoji-support/</guid>
+      <description>&lt;p&gt;在 Hugo 博客里，你可以用多种方式使用 Emoji：&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/functions/emojify/&#34;&gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;&gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site’s &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙈&lt;/span&gt; &lt;code&gt;:see_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙉&lt;/span&gt; &lt;code&gt;:hear_no_evil:&lt;/code&gt;&lt;/span&gt;  &lt;span class=&#34;nowrap&#34;&gt;&lt;span class=&#34;emojify&#34;&gt;🙊&lt;/span&gt; &lt;code&gt;:speak_no_evil:&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The &lt;a href=&#34;http://www.emoji-cheat-sheet.com/&#34;&gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.emoji {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
